@@ -1,0 +1,6 @@
+<h1 id="title">Hello World</h1>
+
+<script>
+    var c=document.getElementById("title")
+    c.textContent="Bye World"
+</script>
