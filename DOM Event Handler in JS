@@ -1,0 +1,11 @@
+<h1 id="title">Hello World</h1>
+<button onclick="chane()">Change</button>
+<script>
+    var c=document.getElementById("title")
+    
+
+    function chane(){
+        c.textContent="Bye World"
+       
+    }
+</script>
