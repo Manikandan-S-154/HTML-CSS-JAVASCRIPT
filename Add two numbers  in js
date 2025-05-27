@@ -1,0 +1,23 @@
+Adding Two Numbers entered in input button and display it besides result <p> tag
+
+
+<input id="1" value="55">
+<input id="2" value="54">
+<button onclick="f()">Add</button> 
+<p id="3">Result</p>
+
+<script>
+function f(){
+    var a=document.getElementById("1")
+    var b=document.getElementById("2")
+    var c=document.getElementById("3")
+    //console.log(a.value)
+
+    var a_value=Number(a.value)
+    var b_value=Number(b.value)
+    var ccc=a_value+b_value
+    console.log(a_value+b_value)
+
+    c.textContent ="Result : "+ccc
+}
+</script>
