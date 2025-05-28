@@ -1,0 +1,24 @@
+<h1 id="zero">Give ur text here</h1>
+
+
+<button id="one" onclick="f1()">Hari</button>
+<button id="two" onclick="f2()">Yogesh</button>
+<button id="three" onclick="f3()">Guru</button>
+
+<script>
+     var a=document.getElementById("zero")
+     var b=document.getElementById("one")
+     var c=document.getElementById("two")
+     var d=document.getElementById("three")
+
+     function f1(){
+        a.textContent=b.textContent
+     }
+     function f2(){
+        a.textContent=c.textContent
+     }
+     function f3(){
+        a.textContent=d.textContent
+     }
+
+</script>
