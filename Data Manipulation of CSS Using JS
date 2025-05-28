@@ -1,0 +1,54 @@
+CSS Box Colour Changing
+
+
+<style>
+    div{
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+    }
+</style>
+
+<div id="box">
+
+</div>
+<button onclick="f()">Change Color</button>
+
+<script>
+    var a=document.getElementById("box")
+    function f(){
+        a.style.backgroundColor="orange"
+    }
+</script>
+
+
+
+
+CSS Box Width Changing
+
+<style>
+    div{
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+        transition: 2s;
+    }
+
+    .w{
+        width: 980px;
+    }
+</style>
+
+<div id="box">
+
+</div>
+<button onclick="f()">Change Color</button>
+
+<script>
+    var a=document.getElementById("box")
+    function f(){
+        a.setAttribute("class","w")
+    }
+</script>
+
+
