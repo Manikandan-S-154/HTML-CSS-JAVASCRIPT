@@ -1,0 +1,9 @@
+<h1 ><button id="one" onclick="f()">Change Color</button></h1>
+
+<script>
+    function f(){
+        var a=document.getElementById("one")
+
+        a.style.backgroundColor="orange"
+    }
+</script>
