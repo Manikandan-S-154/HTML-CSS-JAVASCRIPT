@@ -1,0 +1,12 @@
+<input id="text" onkeyup="f()">
+
+<h1 id="para">Please Enter Value<h1>
+
+<script>
+    var a=document.getElementById("text")
+    var b=document.getElementById("para")
+    
+    function f(){
+        b.textContent=a.value
+    }
+</script>
