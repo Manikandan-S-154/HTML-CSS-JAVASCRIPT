@@ -1,0 +1,25 @@
+.class
+
+<div class="one">
+    Hello
+</div>
+
+<script>
+    var a=document.querySelector(".one")
+    console.log(a)
+</script>
+
+
+
+
+
+
+
+
+<h1 class="one">Hii</h1>
+<h1 class="one">Hello</h1>
+<h1 class="one">Bye</h1>
+<script>
+    var a=document.querySelectorAll(".one")
+    console.log(a)
+</script>
