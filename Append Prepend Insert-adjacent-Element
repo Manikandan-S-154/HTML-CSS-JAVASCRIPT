@@ -1,0 +1,62 @@
+<div>
+    <h1>Sound</h1>
+</div>
+
+<script>
+    var r=document.querySelector("div")
+    console.log(r)
+    r.prepend("Saroja")
+</script>
+
+
+
+//Before-Begin
+<div>
+    <h1>Sound</h1>
+</div>
+
+<script>
+    var r=document.querySelector("div")
+    var a=document.createElement("h1")
+    a.textContent="hii"
+    r.insertAdjacentElement("beforebegin",a)
+</script>
+
+
+
+//AfterEnd
+<div>
+    <h1>Sound</h1>
+</div>
+
+<script>
+    var r=document.querySelector("div")
+    var a=document.createElement("h1")
+    a.textContent="hii"
+    r.insertAdjacentElement("afterend",a)
+</script>
+
+//afterbegin
+<div>
+    <h1>Sound</h1>
+</div>
+
+<script>
+    var r=document.querySelector("div")
+    var a=document.createElement("h1")
+    a.textContent="hii"
+    r.insertAdjacentElement("afterbegin",a)
+</script>
+
+
+//beforeend
+<div>
+    <h1>Sound</h1>
+</div>
+
+<script>
+    var r=document.querySelector("div")
+    var a=document.createElement("h1")
+    a.textContent="hii"
+    r.insertAdjacentElement("beforeend",a)
+</script>
