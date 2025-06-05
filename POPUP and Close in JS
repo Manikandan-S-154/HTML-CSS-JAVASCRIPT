@@ -1,0 +1,49 @@
+<button onclick="f()">Show</button>
+
+<div class="overlay"></div>
+
+<div class="popup">
+       <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum provident aperiam molest
+        ias laborum sunt repudiandae dolore officiis qui quibusdam cumque fugiat, expedita cu
+        piditate! Dicta ratione officiis incidunt eum eligendi enim?</p>
+       <button onclick="c()">Close</button>
+</div>
+
+<style>
+    .overlay{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        opacity: 80%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        display: none;
+    }
+
+    .popup{
+        background-color: white;
+        color: black;
+        width: 40%;
+        position: absolute;
+        left :30%;
+        z-index: 3;
+        display: none;
+        padding: 10px;
+    }
+</style>
+
+<script>
+        var a=document.querySelector(".overlay");
+        var b=document.querySelector(".popup");
+        function f(){
+            a.style.display="block";
+            b.style.display="block";
+        }
+
+        function c(){
+            a.style.display="none";
+            b.style.display="none";
+        }
+</script>
